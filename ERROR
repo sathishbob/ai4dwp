@@ -1,0 +1,16 @@
+{
+  "value": [
+    {
+      "code": "ComponentStatus/StdOut/succeeded",
+      "displayStatus": "Provisioning succeeded",
+      "level": "Info",
+      "message": ""
+    },
+    {
+      "code": "ComponentStatus/StdErr/succeeded",
+      "displayStatus": "Provisioning succeeded",
+      "level": "Info",
+      "message": "At C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:1 char:214\n+ ... ,'https://go.microsoft.com/fwlink/?linkid=2159459'); foreach( in ){ t ...\n+                                                                  ~\nMissing variable name after foreach.\nAt C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:1 char:218\n+ ... ps://go.microsoft.com/fwlink/?linkid=2159459'); foreach( in ){ try{   ...\n+                                                                 ~\nUnexpected token ')' in expression or statement.\nAt C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:1 char:313\n+ ...   -Method Head -UseBasicParsing -ErrorAction Stop; Write-Host \"  = \\}\n+                                                                   ~~~~~~~\nThe string is missing the terminator: \".\nAt C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:1 char:224\n+ ... o.microsoft.com/fwlink/?linkid=2159459'); foreach( in ){ try{  = Invo ...\n+                                                                 ~\nMissing closing '}' in statement block or type definition.\nAt C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:2 char:42\n+ } -o json --query value[0].message -o tsv\n+                                          ~\nThe Try statement is missing its Catch or Finally block.\nAt C:\\Packages\\Plugins\\Microsoft.CPlat.Core.RunCommandWindows\\1.1.22\\Downloads\\script5.ps1:1 char:219\n+ ... s://go.microsoft.com/fwlink/?linkid=2159459'); foreach( in ){ try{  = ...\n+                                                                 ~\nMissing closing '}' in statement block or type definition.\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\n    + FullyQualifiedErrorId : MissingVariableNameAfterForeach\n "
+    }
+  ]
+}
